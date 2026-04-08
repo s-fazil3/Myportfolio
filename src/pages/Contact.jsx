@@ -67,18 +67,18 @@ const Contact = () => {
                     <input type="hidden" name="to_email" value="fz.fazil123@gmail.com" />
 
                     <div className="input-group">
-                        <label style={{ display: 'block', marginBottom: '10px', fontWeight: 600, color: 'var(--text-primary)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '2px', fontFamily: 'Space Grotesk' }}>Identification (Name)</label>
-                        <input type="text" name="name" required className="contact-input" placeholder="Enter Full Name" />
+                        <label style={{ display: 'block', marginBottom: '10px', fontWeight: 600, color: 'var(--text-primary)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '2px', fontFamily: 'Space Grotesk' }}>Full Name</label>
+                        <input type="text" name="name" required className="contact-input" placeholder="Enter your full name" />
                     </div>
 
                     <div className="input-group">
-                        <label style={{ display: 'block', marginBottom: '10px', fontWeight: 600, color: 'var(--text-primary)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '2px', fontFamily: 'Space Grotesk' }}>Correspondence (Email)</label>
-                        <input type="email" name="email" required className="contact-input" placeholder="youremail@domain.com" />
+                        <label style={{ display: 'block', marginBottom: '10px', fontWeight: 600, color: 'var(--text-primary)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '2px', fontFamily: 'Space Grotesk' }}>Email Address</label>
+                        <input type="email" name="email" required className="contact-input" placeholder="Enter your email address" />
                     </div>
 
                     <div className="input-group">
-                        <label style={{ display: 'block', marginBottom: '10px', fontWeight: 600, color: 'var(--text-primary)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '2px', fontFamily: 'Space Grotesk' }}>Dispatch (Message)</label>
-                        <textarea name="message" required className="contact-input" rows="5" placeholder="State your objective..."></textarea>
+                        <label style={{ display: 'block', marginBottom: '10px', fontWeight: 600, color: 'var(--text-primary)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '2px', fontFamily: 'Space Grotesk' }}>Message</label>
+                        <textarea name="message" required className="contact-input" rows="5" placeholder="Write your message here..."></textarea>
                     </div>
 
                     <button
