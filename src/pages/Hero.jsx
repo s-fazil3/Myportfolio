@@ -118,7 +118,6 @@ const Hero = () => {
                             <FaCodeBranch style={{ fontSize: '60px', color: 'var(--text-primary)' }} />
                         </motion.div>
 
-                        {/* Scanning Line */}
                         <motion.div
                             animate={{ top: ['0%', '100%', '0%'] }}
                             transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
@@ -135,13 +134,11 @@ const Hero = () => {
                     </div>
 
                     <div style={{ textAlign: 'center' }}>
-                        <p style={{ fontFamily: 'Space Grotesk', fontSize: '1.4rem', textTransform: 'uppercase', letterSpacing: '4px', color: 'var(--text-primary)', fontWeight: 700, margin: 0 }}>Infrastructure</p>
                         <motion.div
                             animate={{ opacity: [0, 1, 0] }}
                             transition={{ duration: 2, repeat: Infinity }}
                             style={{ fontSize: '0.8rem', fontFamily: 'Space Mono', color: 'var(--accent-color)', marginTop: '8px', letterSpacing: '1px' }}
                         >
-                            SYSTEMS ONLINE.LOG
                         </motion.div>
                     </div>
                 </motion.div>
